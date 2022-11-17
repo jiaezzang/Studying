@@ -1,4 +1,4 @@
-RactDOM.render(
+ReactDOM.render(
     <Clock />,
     document.getElementById('content')
 )
