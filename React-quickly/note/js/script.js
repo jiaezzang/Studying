@@ -17,5 +17,5 @@ let interval = setInterval(() => {
             React.createElement(Note, { secondsLeft: secondsLeft })
         ), document.getElementById('content'));
     }
-    secondsLeft--;
+    secondsLeft--
 }, 1000);
