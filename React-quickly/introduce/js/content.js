@@ -1,4 +1,4 @@
-class content extends React.Component {
+class Content extends React.Component {
     render() {
         return React.createElement(
             "div",
