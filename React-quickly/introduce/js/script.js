@@ -34,7 +34,7 @@ ReactDOM.render(React.createElement(
         null,
         React.createElement(
             "a",
-            { className: "btn btn-danger", href: "https://github.com/jiaezzang" },
+            { className: "btn btn-primary", href: "https://github.com/jiaezzang" },
             "https://github.com/jiaezzang"
         )
     )
