@@ -1,4 +1,4 @@
-class Menu extends React.component {
+class Menu extends React.Component {
     render(){
         let menus = ['Home',
     'About',
@@ -17,7 +17,7 @@ class Menu extends React.component {
     }
 }
 
-class Link extends React.component {
+class Link extends React.Component {
     render(){
         const url ='/'
         + this.props.label
