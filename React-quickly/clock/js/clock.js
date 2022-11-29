@@ -1,4 +1,4 @@
-class clock extends React.Component {
+class Clock extends React.Component {
     constructor(props) {
         super(props);
         this.launchClock();
