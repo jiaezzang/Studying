@@ -43,6 +43,7 @@ class Tooltip extends React.Component {
 
 ReactDOM.render(<div>
     <Tooltip text="Tooltip 텍스트 입니다! 마우스 커서를 올리면 나타나요.">안녕하세요 JIAEZZANG입니다!</Tooltip>
-    개발을 하고 기록 합니다. 
+    개발을 하고 기록 합니다. 저의 블로그(https://jiaezzang.github.io)에 놀러오세요!
+    
 </div>,
 document.getElementById('tooltip'))
