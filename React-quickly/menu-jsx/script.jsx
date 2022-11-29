@@ -28,3 +28,5 @@ class Link extends React.Component {
             </div>
     }
 }
+
+ReactDOM.render(<Menu />, document.getElementById('menu'))
