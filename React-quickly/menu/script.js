@@ -17,7 +17,24 @@ class Menu extends React.component {
     }
 }
 
-class Link extends React.component {...}
+class Link extends React.component {
+    render(){
+        const url ='/'
+        + this.props.label
+            .toLowerCase()
+            .trim()
+            .replace(' ', '-')
+        return React.createElement('div',
+            null,
+            React.createElement(
+                'a',
+                {href: url},
+                this.props.label
+            ),
+            React.createElement('br')
+            )
+    }
+}
 
 ReactDOM.render(
     React.createElement(
