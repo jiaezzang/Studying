@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "build": ".\\node_modules\\.bin\\babel .\\script.jsx -o .\\script.js -w"
+    "build": ".\\node_modules\\.bin\\babel .\\jsx\\script.jsx -o .\\js\\script.js -w"
   },
   "keywords": [],
   "author": "jiaezzang",
