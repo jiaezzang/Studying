@@ -10,4 +10,20 @@ class Content extends React.Component {
         console.log(ReactDOM.findDOMNode(emailAddress).value)
         console.log(ReactDOM.findDOMNode(comments).value)
     }
+    render() {
+        return (
+            <div className="well">
+                <p>{this.prompt}</p>
+                <div className="form-group">
+                    Email: <input ref="emailAddress" className="form-control" type="text" placeholder="visveryver2@gmail.com" />
+                </div>
+                <div className="form-group">
+                    Comment: <textarea ref="comments" className="form-control" placeholder="I love your Website!!" />
+                </div>
+                <div className="form-group">
+                    <a className="btn btn-primary" value="submit" onClick={this.submit}>Submit</a>
+                </div>
+            </div>
+        )
+    }
 }
