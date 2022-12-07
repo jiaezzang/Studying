@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import { StyleSheet, Text, View, TextInput } from "react-native";
+import Forecast from "./Forecast";
 
 class WeatherProject extends Component {
   constructor (props) {
@@ -13,6 +14,16 @@ class WeatherProject extends Component {
   };
 
   render() {
+    let content = null;
+    if (this.state.forecast !== null) {
+      content = (
+        <Forecast
+          main={this.state.forecast.main}
+          description={this.state.forecast.description}
+          temp={this.state.forecast.temp}
+        />
+      );
+    }
     return (
       <View style={StyleSheet.container}>
         <Text style={StyleSheet.welcome}>
