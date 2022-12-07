@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "WeatherProject",
+    "slug": "WeatherProject",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "WeatherProject"
+}
