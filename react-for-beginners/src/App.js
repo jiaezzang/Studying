@@ -11,18 +11,18 @@ function App() {
     setToDo("")
     setToDos(currentArray => [toDo, ...currentArray])
   };
-  console.log(toDos);
+  
   return (
   <div>
-    <h1>My To Dos ({toDos.length})</h1>
+    <h1>My To Do List ({toDos.length})</h1>
     <form onSubmit={onSubmit}>
       <input 
         onChange={onChange} 
         value={toDo}
         type="text" 
-        placeholder="Write your to do..." 
+        placeholder="오늘 해야 할 일은..." 
       />
-      <button>Add To Do</button>
+      <button>입력</button>
     </form>
     <hr />
     {toDos.map((item, index) => (
