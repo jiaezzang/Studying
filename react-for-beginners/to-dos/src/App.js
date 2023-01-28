@@ -5,7 +5,7 @@ function App() {
   const onChange = (event) => setToDo(event.target.value);
   const onSubmit = (event) => {
     event.preventDefault();
-    if(toDo ==""){
+    if(toDo ===""){
       return;
     }
     setToDo("")
